@@ -1,13 +1,8 @@
 pipeline:
   build:
-    image: golang
+    image: alpine
     commands:
-      - go get
-      - go build
-      - go test
+      - whoami
+      - ls -la
+      - env
 
-services:
-  postgres:
-    image: postgres:9.4.5
-    environment:
-      - POSTGRES_USER=myapp
