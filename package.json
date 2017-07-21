@@ -1,0 +1,22 @@
+{
+  "name": "drone-cider-1",
+  "version": "1.0.0",
+  "description": "test for cider 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint ./scripts/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spacetesterson/drone-cider-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spacetesterson/drone-cider-1/issues"
+  },
+  "homepage": "https://github.com/spacetesterson/drone-cider-1#readme",
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  }
+}
